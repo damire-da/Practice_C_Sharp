@@ -1,8 +1,7 @@
-﻿
-@model IEnumerable<OnlineBank.Models.Deposit>
+﻿@model IEnumerable<OnlineBank.Models.Deposit>
 @{
     //ViewData["Title"] = "Deposit";
-    Layout = null;
+
 }
 
 <!DOCTYPE>
@@ -17,6 +16,7 @@
     {
         @deposit.Name
         @deposit.Percent
+        <br />
     }
 </body>
 </html>

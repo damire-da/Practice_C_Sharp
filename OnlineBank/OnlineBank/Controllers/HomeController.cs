@@ -19,17 +19,17 @@ namespace OnlineBank.Controllers
 
         public IActionResult Index()
         {
-            return View(db.Deposits.ToList());
+            return View();
         }
 
         public IActionResult Privacy()
         {
             return View();
         }
-        [HttpGet]
+
         public IActionResult Deposit()
         {
-            return View();
+            return View(db.Deposits.ToList());
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

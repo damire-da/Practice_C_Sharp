@@ -1,6 +1,6 @@
-﻿
+﻿using OnlineBank.Models;
 
-namespace OnlineBank.Models
+namespace OnlineBank
 {
     public static class DepositData
     {
