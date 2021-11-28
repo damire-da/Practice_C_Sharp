@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p688FX2lenBsUXCnjJk1P9GE9abjjsDHYRONyYlaHqwuUvmih/Yd2EC8iMQK5d7Qt7XXyfQVyaZeNFKwQT/rDQ==",
+  "dgSpecHash": "IMMjQl1uL2IXIGt5JqPqpahiAjIHlQ4GhuFk8wwOlOQSGqme0woqq1NZGccuzQd+W5eYLARYVU+ntWlDWoyd3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\хадарарарарара\\Desktop\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj",
+  "projectFilePath": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\хадарарарарара\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\хадарарарарара\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",

@@ -8,41 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineBank
 build_property.RootNamespace = OnlineBank
-build_property.ProjectDir = C:\Users\хадарарарарара\Desktop\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank\
+build_property.ProjectDir = C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\хадарарарарара\Desktop\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank
+build_property.MSBuildProjectDirectory = C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Deposit.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Arrange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcnJhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Deposit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvc2l0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Index.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/DepositInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvc2l0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Privacy.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Shared/Error.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/_ViewImports.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/_ViewStart.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/хадарарарарара/Desktop/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Shared/_Layout.cshtml]
+[C:/Users/хадарарарарара/Desktop/3 семестр/GitHub/Practice_C_Sharp/OnlineBank/OnlineBank/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gmq9ohwgcv

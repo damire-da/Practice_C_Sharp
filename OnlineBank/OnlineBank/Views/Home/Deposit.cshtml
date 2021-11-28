@@ -8,15 +8,23 @@
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Депозиты</title>
+  <title>Мои вклады</title>
  </head>
  <body>
-    <h3>Депозиты</h3>
+    <h3>Мои вклады</h3>
     @foreach (var deposit in Model)
     {
-        @deposit.Name
-        @deposit.Percent
-        <br />
+        @if(deposit != null)
+        {
+            @deposit.Name
+            @deposit.Percent
+            <br />
+        }
+        else
+        {
+            <span>У вас пока нет вкладов</span>
+        }
+
     }
 </body>
 </html>

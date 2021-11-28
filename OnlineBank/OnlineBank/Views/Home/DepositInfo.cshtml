@@ -1,0 +1,44 @@
+﻿@model IEnumerable<OnlineBank.Models.DepositInfo>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Вклады</title>
+ </head>
+ <body>
+    <h3>Вклады</h3>
+    <table border=1>
+        <tr>
+            <th>Название</th>
+            <th>Процентная ставка %
+
+            </th>
+            <th>Описание</th>
+            <th></th>
+        </tr>
+
+    @foreach (var deposit in Model)
+    {
+        @if(deposit != null)
+        {
+                <tr>
+                    <td>@deposit.Name</td>
+                    <td>@deposit.Percent</td>
+                    <td>@deposit.Info</td>
+                    <td><a href="~/Home/Arrange/@deposit.Id">Оформить</a></td>
+                </tr>
+
+        }
+        else
+        {
+            <span>Эта опция пока не доступна</span>
+        }
+    }
+    </table>
+</body>
+</html>
+

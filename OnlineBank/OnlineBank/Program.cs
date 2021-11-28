@@ -1,9 +1,18 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineBank;
 using OnlineBank.Models;
-using System.Diagnostics;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 
 var builder = WebApplication.CreateBuilder(args);
+//установка конфигурации значения
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = new PathString("/Account/Login");
+    });
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -11,7 +20,6 @@ builder.Services.AddControllersWithViews();
 // Connect with PostgreSql
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<BankContext>(options => options.UseNpgsql(connection));
-builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
@@ -32,7 +40,6 @@ using (var scope = app.Services.CreateScope())
 }
 
 
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -46,6 +53,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

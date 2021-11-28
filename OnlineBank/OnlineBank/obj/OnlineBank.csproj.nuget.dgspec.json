@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\хадарарарарара\\Desktop\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj": {}
+    "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\хадарарарарара\\Desktop\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj": {
+    "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\хадарарарарара\\Desktop\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj",
+        "projectUniqueName": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj",
         "projectName": "OnlineBank",
-        "projectPath": "C:\\Users\\хадарарарарара\\Desktop\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj",
+        "projectPath": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\OnlineBank.csproj",
         "packagesPath": "C:\\Users\\хадарарарарара\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\хадарарарарара\\Desktop\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\obj\\",
+        "outputPath": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\хадарарарарара\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,43 @@
+﻿@{
+
+}
+@model IEnumerable<OnlineBank.Models.DepositInfo>
+ 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Оформление вклада</title>
+</head>
+<body>
+    <div>
+        <h3>Оформление вклада</h3>
+        <p>Для оформления вклада заполните следующие поля:</p>
+        <form method="post">
+            <input type="hidden" value="@ViewBag.DepositId" name="Id" />
+            @foreach(var deposit in Model)
+            {
+                @if(@deposit.Id == @ViewBag.DepositId)
+                {
+                    <table>
+                        <tr>
+                            <td>Название вклада:</td>
+                            <td><input readonly type="text" value="@deposit.Name" name="Name" /></td>
+                        </tr>
+                        <tr>
+                            <td>Процент</td>
+                            <td><input readonly type="text" value="@deposit.Percent" name="Percent" /></td>
+                        </tr>
+                        <tr>
+                            <td>Описание</td>
+                            <td><input readonly type="text" value="@deposit.Info" name="Info" /></td>
+                        </tr>
+                        <tr> <td></td><td><input type="submit" value="Подтвердить" /></td></tr>
+                    </table>  
+                    break;
+                }
+            }
+
+        </form>
+    </div>
+</body>
+</html>
