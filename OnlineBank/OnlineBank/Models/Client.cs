@@ -7,6 +7,6 @@
         public int Age { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<Deposit> Deposits { get; set; } = new();
+        public List<Deposit1> Deposits { get; set ;} = new();
     }  
 }

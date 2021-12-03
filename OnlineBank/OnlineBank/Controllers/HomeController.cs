@@ -16,6 +16,7 @@ namespace OnlineBank.Controllers
             db = context;
         }
 
+
         [Authorize]
         public IActionResult Index()
         {
@@ -53,9 +54,20 @@ namespace OnlineBank.Controllers
             return View(db.DepositsInfo.ToList());
         }
         [HttpPost]
-        public string Arrange(Deposit deposit)
+        public string Arrange(Deposit1 deposit)
         {
+            //deposit.Client=
+            //Deposit1 deposit1 = new() 
+            //{
+            //    Id = deposit.Id,
+            //    Name = deposit.Name,
+            //    Percent = deposit.Percent,
+            //    Info = deposit.Info
+                
+            //};
             db.Deposits.Add(deposit);
+            
+            
             db.SaveChanges();
             return "Вклад успешно оформлен. Детали вклада" +
                 " можно посмотреть во вкладке 'Мои вклады'";

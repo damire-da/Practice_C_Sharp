@@ -1,0 +1,23 @@
+﻿/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border-collapse: collapse;
+    border: 2px solid white;
+    width: 100%;
+    margin: auto;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+    border-bottom: 0.4px solid #D3D3D3;
+}
+/* границы ячеек тела таблицы */
+td {
+    border-bottom: 0.4px solid #D3D3D3;
+}
+
+td, th {
+    padding: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #DCDCDC;
+}

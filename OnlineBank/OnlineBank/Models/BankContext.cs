@@ -6,7 +6,7 @@ namespace OnlineBank.Models
     {
         public DbSet<DepositInfo> DepositsInfo { get; set; }
         public DbSet<Client> Clients { get; set; }
-        public DbSet<Deposit> Deposits { get; set; }
+        public DbSet<Deposit1> Deposits { get; set; }
 
         
         

@@ -1,7 +1,4 @@
-﻿@{
-
-}
-@model IEnumerable<OnlineBank.Models.DepositInfo>
+﻿@model IEnumerable<OnlineBank.Models.DepositInfo>
  
 <!DOCTYPE html>
 <html>
@@ -16,7 +13,7 @@
             <input type="hidden" value="@ViewBag.DepositId" name="Id" />
             @foreach(var deposit in Model)
             {
-                @if(@deposit.Id == @ViewBag.DepositId)
+                @if(deposit.Id == @ViewBag.DepositId)
                 {
                     <table>
                         <tr>
@@ -36,6 +33,7 @@
                     break;
                 }
             }
+            @await Html.PartialAsync("Index")
 
         </form>
     </div>

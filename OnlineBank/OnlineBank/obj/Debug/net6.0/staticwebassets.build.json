@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HYqg9ynEpvWIOzV89+tkFEKdKtsvSss5LU6xUJT7uBY=",
+  "Hash": "o+0UOQy7fo4wDJOhnjMKBILZblqDYGcG786bH2//7Ao=",
   "Source": "OnlineBank",
   "BasePath": "_content/OnlineBank",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OnlineBank.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\wwwroot\\css\\deposit.css",
+      "SourceId": "OnlineBank",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\wwwroot\\",
+      "BasePath": "_content/OnlineBank",
+      "RelativePath": "css/deposit.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\deposit.css"
     },
     {
       "Identity": "C:\\Users\\хадарарарарара\\Desktop\\3 семестр\\GitHub\\Practice_C_Sharp\\OnlineBank\\OnlineBank\\wwwroot\\css\\site.css",
