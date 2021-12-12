@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineBank.Models;
+using System.Linq;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using OnlineBank.ViewModels;
 using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Authentication;
+
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace OnlineBank.Controllers
@@ -55,7 +58,8 @@ namespace OnlineBank.Controllers
                 if (client == null)
                 {
                     //add client in db
-                    db.Clients.Add(new Client { Email = model.Email, Password = model.Password, Name = model.Name, Age = model.Age });
+                    client = new Client { Email = model.Email, Password = model.Password, Name = model.Name, Age = model.Age };
+                     
                     await db.SaveChangesAsync();
 
                     await Authenticate(model.Email);

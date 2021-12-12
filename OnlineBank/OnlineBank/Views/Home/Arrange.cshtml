@@ -29,12 +29,11 @@
                             <td><input readonly type="text" value="@deposit.Info" name="Info" /></td>
                         </tr>
                         <tr> <td></td><td><input type="submit" value="Подтвердить" /></td></tr>
-                    </table>  
-                    break;
+                    </table>
                 }
             }
-            @await Html.PartialAsync("Index")
-
+            <input type="hidden" value="@ViewBag.Client" name="Client"/>
+            
         </form>
     </div>
 </body>

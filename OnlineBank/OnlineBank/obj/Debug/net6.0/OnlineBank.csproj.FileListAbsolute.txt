@@ -60,3 +60,4 @@ C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C
 C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank\obj\Debug\net6.0\ref\OnlineBank.dll
 C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank\obj\Debug\net6.0\OnlineBank.pdb
 C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank\obj\Debug\net6.0\OnlineBank.genruntimeconfig.cache
+C:\Users\хадарарарарара\Desktop\3 семестр\GitHub\Practice_C_Sharp\OnlineBank\OnlineBank\obj\Debug\net6.0\OnlineBank.csproj.AssemblyReference.cache

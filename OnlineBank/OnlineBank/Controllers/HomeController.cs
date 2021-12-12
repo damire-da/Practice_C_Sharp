@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineBank.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace OnlineBank.Controllers
 {
@@ -49,12 +53,13 @@ namespace OnlineBank.Controllers
         public IActionResult Arrange(int? id)
         {
             if (id == null) return RedirectToAction("Index");
-            ViewBag.Depositid = id;
+            ViewBag.DepositId = id;
 
+            ViewBag.Client = db.Clients;
             return View(db.DepositsInfo.ToList());
         }
         [HttpPost]
-        public string Arrange(Deposit1 deposit)
+        public string Arrange(Deposit1 deposit, Client c)
         {
             //deposit.Client=
             //Deposit1 deposit1 = new() 
@@ -65,6 +70,7 @@ namespace OnlineBank.Controllers
             //    Info = deposit.Info
                 
             //};
+            deposit.Client = c;
             db.Deposits.Add(deposit);
             
             
