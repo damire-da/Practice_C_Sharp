@@ -22,7 +22,7 @@
 
     @foreach (var deposit in Model)
     {
-        @if(deposit != null)
+        if(deposit != null)
         {
                 <tr>
                     <td>@deposit.Name</td>

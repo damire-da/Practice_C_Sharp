@@ -7,5 +7,6 @@
 
         public double Percent { get; set; }
         public string Info { get; set; }
+
     }
 }

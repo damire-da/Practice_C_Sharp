@@ -1,15 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineBank.Models;
-using System.Linq;
-using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using OnlineBank.ViewModels;
-using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Authentication;
-
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace OnlineBank.Controllers
@@ -41,6 +36,7 @@ namespace OnlineBank.Controllers
                 }
                 ModelState.AddModelError("", "Некорректные логин и(или) пароль!");
             }
+            
             return View(model);
         }
         [HttpGet]
@@ -59,7 +55,7 @@ namespace OnlineBank.Controllers
                 {
                     //add client in db
                     client = new Client { Email = model.Email, Password = model.Password, Name = model.Name, Age = model.Age };
-                     
+                    Deposit1 deposit = await db.Deposits.FirstOrDefaultAsync(d => d.Name == null);
                     await db.SaveChangesAsync();
 
                     await Authenticate(model.Email);

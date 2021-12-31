@@ -5,12 +5,17 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 
 namespace OnlineBank.Controllers
 {
+    
     public class HomeController : Controller
     {
+
+        public Client client; 
+        
         private readonly ILogger<HomeController> _logger;
 
         BankContext db;
@@ -18,6 +23,7 @@ namespace OnlineBank.Controllers
         public HomeController(BankContext context)
         {
             db = context;
+           
         }
 
 
@@ -53,27 +59,21 @@ namespace OnlineBank.Controllers
         public IActionResult Arrange(int? id)
         {
             if (id == null) return RedirectToAction("Index");
+            
             ViewBag.DepositId = id;
+            string ClientName = User.Identity.Name;
+            var c = db.Clients.Where(u => u.Email == ClientName).ToList();
+            ViewBag.Client = c[0];
 
-            ViewBag.Client = db.Clients;
             return View(db.DepositsInfo.ToList());
         }
         [HttpPost]
-        public string Arrange(Deposit1 deposit, Client c)
+        public string Arrange(Deposit1 deposit)
         {
-            //deposit.Client=
-            //Deposit1 deposit1 = new() 
-            //{
-            //    Id = deposit.Id,
-            //    Name = deposit.Name,
-            //    Percent = deposit.Percent,
-            //    Info = deposit.Info
-                
-            //};
-            deposit.Client = c;
+            string ClientName = User.Identity.Name;
+            client = db.Clients.Where(u => u.Email == ClientName).ToList<Client>()[0];
+            deposit.Client = client;
             db.Deposits.Add(deposit);
-            
-            
             db.SaveChanges();
             return "Вклад успешно оформлен. Детали вклада" +
                 " можно посмотреть во вкладке 'Мои вклады'";
